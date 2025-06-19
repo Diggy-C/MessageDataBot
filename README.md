@@ -3,7 +3,7 @@ Analyze your server's message history over time! Collect data and plot cool grap
 
 ## How to use
 Create a discord bot at the Discord Developer Portal: https://discord.com/developers/applications
-Download the .py file, and at the bottom of the file, replace "Token" in bot.run("Token") at the bottom of the file with your bot's token. Keep the file running until you see it has finished scanning all the messages in the server (might take a while, usually approximately 90 min per 500k messages). Once it's finished, you can run all the commands!
+Download the .py file, and at the bottom of the file, replace "Token" in bot.run("Token") at the bottom of the file with your bot's token. Keep the file running until you see it has finished scanning all the messages in the server (might take a while, usually approximately 90 min per 500k messages). Once it's finished, you can run all the commands! The message data will be stored in JSON's so it only takes a long time for the initial reading, all commands should be relatively quick after
 
 ## Commands
 ### Graph
